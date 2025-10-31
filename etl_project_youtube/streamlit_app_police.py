@@ -5,7 +5,7 @@ import plotly.express as px
 # -------------------------
 # Load data
 # -------------------------
-df = ppd.read_csv("etl_project_youtube/all_crimes.csv")
+df = pd.read_csv("etl_project_youtube/all_crimes.csv")
 
 # -------------------------
 # Sidebar filters
